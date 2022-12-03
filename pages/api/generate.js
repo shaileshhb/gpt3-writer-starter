@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openAI = new OpenAIApi(configuration)
 
-const basePromptPrefix = `Generate at least 10 MCQ questions with 2-4 options and right answer.
+const basePromptPrefix = `Generate at least 5 MCQ questions with 2-4 options and right answer.
 Topic: `
 
 const generateAction = async (req, res) => {
